@@ -1,9 +1,10 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: sample app
+  name: sample
   annotations:
     backstage.io/techdocs-ref: dir:.
+    github.com/project-slug: backstage/sample
 spec:
   type: service
   owner: user:guest
